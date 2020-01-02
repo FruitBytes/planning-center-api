@@ -1,5 +1,5 @@
 {
-    "name": "smadeira/planning-center-api",
+    "name": "fruitbytes/planning-center-api",
     "description": "PHP API wrapper for the Planning Center JSON API",
     "type": "library",
     "license": "MIT",
@@ -7,6 +7,10 @@
         {
             "name": "Scott Madeira",
             "email": "smadeira@zoominternet.net"
+        },
+        {
+            "name": "Josh Trebilco",
+            "email": "josh@fruitbytes.com"
         }
     ],
     "require": {
@@ -16,7 +20,7 @@
         "illuminate/filesystem": "5.x || 6.x",
         "vlucas/phpdotenv": "^3.3"
     },
-    "minimum-stability": "dev",    
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "PlanningCenterAPI\\": "src/"
